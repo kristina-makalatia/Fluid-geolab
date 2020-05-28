@@ -1,0 +1,47 @@
+.left-wraper {
+	float: left;
+	background-color: red;
+	width:550px;
+}
+.right-wraper {
+	float: right;
+	background-color: yellow;
+	width: 550px;
+}
+.image1 {
+	float: right;
+	width: 200px;
+}
+.image2 {
+	float: left;
+	width: 200px;
+}
+
+.box:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+/*Footer*/
+.text2 {
+	text-align: center;
+}
+/*.text2::before {
+	content: 'GEOLAB';
+	display: inline-block;
+	color: red;
+	font-size: 20px;
+	text-transform: uppercase;
+}*/
+.text2::after {
+	content: '';
+	background-color: red;
+	width: 50px;
+	height: 3px;
+	margin: 20px auto;
+	display: block;
+}
+
+
+
